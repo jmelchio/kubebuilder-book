@@ -1,3 +1,7 @@
 domain: physiodelic.net
 repo: github.com/jmelchio/kubebuilder-book
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
 version: "2"
